@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* desde aca ya son estilos generales */
+
+.contenedor-de-imagen {
+    display: flex;
+}
+
+.contenedor-de-imagen img {
+    width: 100%;
+}
+
+/*aca vienen estilos del header*/
+
+header {
+    background: rgb(65, 65, 66);
+    padding: 10px 50px ;
+}
+
+#logo {
+    width: 50;
+}
+  
+#logo img {
+    border-radius: 100%;
+    border: 2px solid;
+}
+
+/*Aqui van estilos del hero*/
+
+#mi-hero {
+    position: relative;
+}
+
+#hero #computadora {
+    display: inline-block;
+    width: 100%;
+}
+
+#mi-hero .contenedor-de-informacion  {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-30%);
+    left: 0;
+    display: flex;
+    width: 100%;
+    color: #fff;
+    padding: 0 50px;
+}
+
+#mi-hero .contenedor-de-informacion #foto {
+    width: 100px;
+    height: 270px;
+    padding: 80px 0px;
+    position: relative;
+    top: -70px;
+}
+
+#mi-hero .contenedor-de-informacion #foto img {
+    border-radius: 100%;
+}
+
+#mi-hero .contenedor-de-informacion .informacion {
+    margin-left: 50px;
+    font-weight: bold;
+    width: calc(100% - 200px);
+}
+
+#mi-hero .contenedor-de-informacion .informacion span {
+    color: rgb(141, 134, 134) ;
+    display: inline-block;
+    margin-bottom: 70;
+}
+
+#mi-hero .contenedor-de-informacion .informacion p {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -18px;
+}
+
+/*estilos de main*/
+
+main {
+    padding: 100px;
+}
+main .iconos-redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
+
+main .iconos-redes-sociales li {
+    margin-left: 5px;
+}
+
+main .iconos-redes-sociales .icono-red-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+main .iconos-redes-sociales #Facebook {
+    background-color: #3c6bfb;
+}
+
+main .iconos-redes-sociales #Instagram {
+    background-color: #ff3558;
+}
